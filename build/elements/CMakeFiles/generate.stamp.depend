@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.21/Modules/FindPkgConfig.cmake
+F:/github/qml-gstreamer/elements/CMakeLists.txt

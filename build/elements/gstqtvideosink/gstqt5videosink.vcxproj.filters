@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\github\qml-gstreamer\build\elements\gstqtvideosink\gstqt5videosink_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\utils\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\utils\bufferformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\painters\genericsurfacepainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\delegates\basedelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\delegates\qtvideosinkdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\delegates\qwidgetvideosinkdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtvideosinkplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtvideosinkbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtvideosink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqwidgetvideosink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtvideosinkmarshal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\painters\videomaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\painters\videonode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\delegates\qtquick2videosinkdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtquick2videosink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\painters\openglsurfacepainter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtglvideosinkbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\elements\gstqtvideosink\gstqtglvideosink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\build\elements\gstqtvideosink\gstqt5videosink_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\build\elements\gstqtvideosink\gstqt5videosink_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\github\qml-gstreamer\build\elements\gstqtvideosink\gstqt5videosink_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\qml-gstreamer\elements\gstqtvideosink\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7D93BE29-F275-3B04-AC42-6FED19E19D92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
