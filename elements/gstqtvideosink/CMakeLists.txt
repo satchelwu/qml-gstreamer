@@ -15,8 +15,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick Widgets LinguistTools OpenGL OpenGLExtensions REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick Widgets LinguistTools OpenGL OpenGLExtensions REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick Widgets  OpenGL OpenGLExtensions REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick Widgets OpenGL OpenGLExtensions REQUIRED)
 message(        ${Qt5OpenGL_INCLUDE_DIRS}
 )
 if(${QT_VERSION_MAJOR} EQUAL 5)
@@ -140,11 +140,26 @@ target_link_libraries(gst${QTVIDEOSINK_NAME} PRIVATE
     Qt${QT_VERSION_MAJOR}::OpenGL
     Qt${QT_VERSION_MAJOR}::OpenGLExtensions
     ${OpenGL_LIBRARIES}
-    OpenGL32.Lib
+    GL
     # D:/Qt/5.15.2/msvc2019_64/lib/libGLESv2.lib
 
     # D:/Qt/5.15.2/msvc2019_64/lib/libEGL.lib
 )
+
+if(${GstQtVideoSink_LINK_OPENGL})
+    if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+        target_link_libraries(gst${QTVIDEOSINK_NAME} PRIVATE
+        GL
+        )
+    elseif(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+        target_link_libraries(gst${QTVIDEOSINK_NAME} PRIVATE
+        opengl32.lib
+        )
+
+    endif()
+endif()
+
+
 # qt4or5_use_modules(gst${QTVIDEOSINK_NAME} Core Gui Widgets)
 # if (Qt4or5_Quick2_FOUND AND (OPENGL_FOUND OR OPENGLES2_FOUND))
 #     qt4or5_use_modules(gst${QTVIDEOSINK_NAME} Quick2)

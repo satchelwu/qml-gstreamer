@@ -1,6 +1,6 @@
 set(GST_PACKAGE_NAME "QtGStreamer" CACHE STRING "The name of this package")
 set(GST_PACKAGE_ORIGIN "http://gstreamer.freedesktop.org/" CACHE STRING "The origin url of this package")
-
+set(QTGSTREAMER_VERSION 1.2.0)
 add_definitions(-DPACKAGE="qt-gstreamer"
                 -DPACKAGE_NAME="${GST_PACKAGE_NAME}"
                 -DPACKAGE_ORIGIN="${GST_PACKAGE_ORIGIN}"
